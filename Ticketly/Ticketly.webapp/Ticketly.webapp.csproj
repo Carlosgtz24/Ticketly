@@ -158,6 +158,7 @@
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
     <Content Include="Site.Mobile.Master" />
+    <Content Include="Ticketly.p" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -201,6 +202,12 @@
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
+    <Compile Include="Ticketly.p.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ticketly.p.designer.cs">
+      <DependentUpon>Ticketly.p.cs</DependentUpon>
+    </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -222,6 +229,16 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ticketly.BusinessLogic\Ticketly.BusinessLogic.csproj">
+      <Project>{c013f48e-1af1-4ec1-a415-f3ffefdcbc6e}</Project>
+      <Name>Ticketly.BusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ticketly.Entities\Ticketly.Entities.csproj">
+      <Project>{b32fc823-72a6-4b81-9a45-a928dbda0941}</Project>
+      <Name>Ticketly.Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
