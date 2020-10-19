@@ -7,7 +7,7 @@
     <title> Inicio de sesion Ticketly | Fazt</title>
 
   </head>
-  <body >
+  <body style="background-color: #708090" >
       
       
       <center>
@@ -35,7 +35,7 @@
             .login-box {
     width: 320px;
     height: 420px;
-    background: #4169E1;
+    background: #87CEFA;
     color: #F0FFFF;
     top: 50%;
     left: 50%;
@@ -72,7 +72,7 @@
             background: transparent;
             outline: none;
             height: 40px;
-            color: #fff;
+            color: #000;
             font-size: 16px;
         }
 
@@ -96,11 +96,11 @@
         text-decoration: none;
         font-size: 12px;
         line-height: 20px;
-        color: darkgrey;
+        color: dark;
     }
 
         .login-box a:hover {
-            color: #F0FFFF;
+            color: #000;
         }
         </style>
   <%--</body>--%>
