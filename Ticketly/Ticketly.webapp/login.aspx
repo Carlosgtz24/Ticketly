@@ -7,7 +7,7 @@
     <title> Inicio de sesion Ticketly | Fazt</title>
 
   </head>
-  <body style="background-color: #708090" >
+  <body style="background-color: #228B22" >
       
       
       <center>
@@ -15,17 +15,17 @@
         
 
 
-      <h1>Login Here</h1>
+      <h1>Inicio de sesion</h1>
       <form>
         <!-- USERNAME INPUT -->
-        <label for="username">Usuario</label>
+        <label for="username"><span class="auto-style1">Usuario</span></label>
         <input type="text" placeholder="Ingresa usuario">
         <!-- PASSWORD INPUT -->
-        <label for="password">Contraseña</label>
+        <label for="password"><span class="auto-style1">Contraseña</span></label>
         <input type="password" placeholder="Ingresa contraseña">
-        <input type="submit" value="Log In"><br>
-        <a href="#">Lost your Password?</a><br>
-        <a href="#">Don't have An account?</a>
+        <input type="submit" value="Ingresar"><br>
+        <a href="#">Olvidaste tu contraseña?</a><br>
+       
       </form>
     </div>
       </center>
@@ -35,8 +35,8 @@
             .login-box {
     width: 320px;
     height: 420px;
-    background: #87CEFA;
-    color: #F0FFFF;
+    background: #efb810;
+    color: 000000;
     top: 50%;
     left: 50%;
     position: absolute;
@@ -44,14 +44,14 @@
     box-sizing: border-box;
     padding: 70px 30px;
 }
-
+            
    
 
     .login-box h1 {
         margin: 0;
         padding: 0 0 20px;
         text-align: center;
-        font-size: 22px;
+        font-size: 32px;
     }
 
     .login-box label {
@@ -94,14 +94,17 @@
 
     .login-box a {
         text-decoration: none;
-        font-size: 12px;
+        font-size: 15px;
         line-height: 20px;
-        color: dark;
+        color: #000;
     }
 
         .login-box a:hover {
             color: #000;
         }
+          .auto-style1 {
+              font-size: x-large;
+          }
         </style>
   <%--</body>--%>
 </html>

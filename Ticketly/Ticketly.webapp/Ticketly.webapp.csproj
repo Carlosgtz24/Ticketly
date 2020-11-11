@@ -187,6 +187,7 @@
     <Content Include="Principal.html" />
     <Content Include="StyleSheet1.css" />
     <Content Include="login.aspx" />
+    <Content Include="log.Master" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -256,6 +257,12 @@
     </Compile>
     <Compile Include="Inicio.aspx.designer.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="log.Master.cs">
+      <DependentUpon>log.Master</DependentUpon>
+    </Compile>
+    <Compile Include="log.Master.designer.cs">
+      <DependentUpon>log.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
