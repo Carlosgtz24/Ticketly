@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Ticketly | Fazt</title>
@@ -12,7 +12,7 @@
     
     <center>
     <form id="form1" runat="server">
-    <div class="login-box">
+    <div class="login">
         
         <div style="height: 309px; width: 231px;">
             <h1>Venta de boletos</h1>
@@ -53,9 +53,8 @@
 
 
         <style>
-                      .login-box {
-    width: 512px;
-    height: 430px;
+                      .login {
+    
     background: #008080;
     color: #F0FFFF;
     top: 48%;
@@ -64,7 +63,9 @@
     transform: translate(-50%, -50%);
     box-sizing: border-box;
     padding: 70px 30px;
-}
+                height: 605px;
+                width: 429px;
+            }
         </style>
     <p style="text-align: center">
         &nbsp;</p>

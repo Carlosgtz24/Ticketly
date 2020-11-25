@@ -12,13 +12,44 @@ namespace Ticketly.webapp
 {
     public partial class WebForm1 : System.Web.UI.Page
     {
+        private readonly object databaseConnection;
+
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
         protected void btnLogin_Click(Object sender, EventArgs e)
         {
+            try
+            {
+               
+                databaseConnection.Open();
 
+                reader = commandDatabase.ExecuteReader();
+
+             
+
+                if (reader.HasRows)
+                {
+                    while (reader.Read())
+                    {
+                       
+                        string[] row = { reader.GetString(0), reader.GetString(1), reader.GetString(2), reader.GetString(3) };
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("No se encontraron datos.");
+                }
+
+                // Cerrar la conexión
+                databaseConnection.Close();
+            }
+            catch (Exception ex)
+            {
+                // Mostrar cualquier excepción
+                MessageBox.Show(ex.Message);
+            }
 
         }
 

@@ -7,7 +7,7 @@
     <title> Inicio de sesion Ticketly | Fazt</title>
 
   </head>
-  <body style="background-color: #228B22" >
+  <body style="background-color: #228B22; font-size: medium;" >
       
       
       <center>
@@ -18,13 +18,20 @@
       <h1>Inicio de sesion</h1>
       <form>
         <!-- USERNAME INPUT -->
-        <label for="username"><span class="auto-style1">Usuario</span></label>
-        <input type="text" placeholder="Ingresa usuario">
+           <div class="contenedor-input">
+                         <label for="username"><span class="auto-style1">Usuario</span></label>
+        <input type="text" placeholder="Ingresa usuario">   
+                        </div>
+        
+          <div class="contenedor-input">
         <!-- PASSWORD INPUT -->
         <label for="password"><span class="auto-style1">Contraseña</span></label>
         <input type="password" placeholder="Ingresa contraseña">
+
+          </div>
         <input type="submit" value="Ingresar"><br>
         <a href="#">Olvidaste tu contraseña?</a><br>
+          <a href="#">Registrarse</a><br>
        
       </form>
     </div>
