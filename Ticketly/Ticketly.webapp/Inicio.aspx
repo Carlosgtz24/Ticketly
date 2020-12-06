@@ -48,11 +48,13 @@
             <label for="date">Fecha de viaje <br >
 <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
 
-
+                <input type="submit" value="Comprar"><br>
             </form>
 
 
         <style>
+
+
                       .login {
     
     background: #008080;

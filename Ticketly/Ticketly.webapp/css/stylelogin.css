@@ -107,7 +107,7 @@ h1 {
 label {
     position: absolute;
     transform: translateY(6px);
-    left: 13px;
+    left: 9px;
     color: rgba($blanco,.5);
     transition: all 0.25s ease;
     -webkit-backface-visibility: hidden;
@@ -117,9 +117,10 @@ label {
 
 {
     margin: 2px;
-    color: $color-principal;
-}
-
+    top: 33px;
+    width: 135px;
+    height: 52px;
+    margin-right: 163px;
 }
 
 label.active {
@@ -141,15 +142,10 @@ label.highlight {
 input {
     font-size: 22px;
     display: block;
-    width: 100%;
+    width: 186%;
     height: 100%;
     padding: 5px 10px;
-    background: none;
-    background-image: none;
-    border: 1px solid $gris-light;
-    border-top: none;
-    border-left: none;
-    border-right: none;
+    background: ;
     color: $blanco;
     border-radius: 0;
     transition: all 0.5s ease;
@@ -161,11 +157,24 @@ input {
     border-color: $color-principal;
 }
 
+;
+    border-left-style: none;
+    border-left-color: inherit;
+    border-left-width: medium;
+    border-right-style: none;
+    border-right-color: inherit;
+    border-right-width: medium;
+    border-top-style: none;
+    border-top-color: inherit;
+    border-top-width: medium;
 }
 
 .contenedor-input {
     position: relative;
     margin-bottom: 40px;
+    top: -96px;
+    left: -1px;
+    height: 63px;
 }
 
 .fila-arriba {

@@ -16,10 +16,12 @@ namespace Ticketly.webapp
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            Response.Redirect("inicio.aspx");
+            Server.Transfer("C:/Users/carlo/source/repos/Ticketly/Ticketly/Ticketly.webapp/Inicio.aspx");
 
         }
         protected void btnLogin_Click(Object sender, EventArgs e)
-        {
+        {/*
             try
             {
                
@@ -52,7 +54,7 @@ namespace Ticketly.webapp
             }
 
         }
-
+*/
         public void validaUsuario()
         {
             using (SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["connDB"].ConnectionString))

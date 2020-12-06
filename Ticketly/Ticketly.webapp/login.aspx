@@ -16,7 +16,7 @@
 
 
       <h1>Inicio de sesion</h1>
-      <form>
+      <form id="Ingresar">
         <!-- USERNAME INPUT -->
            <div class="contenedor-input">
                          <label for="username"><span class="auto-style1">Usuario</span></label>
@@ -29,7 +29,7 @@
         <input type="password" placeholder="Ingresa contraseña">
 
           </div>
-        <input type="submit" value="Ingresar"><br>
+        <input type="submit" value="Ingresar" id="button1"><br>
         <a href="#">Olvidaste tu contraseña?</a><br>
           <a href="#">Registrarse</a><br>
        
